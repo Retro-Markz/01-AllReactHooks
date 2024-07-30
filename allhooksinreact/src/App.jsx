@@ -1,12 +1,8 @@
 import "./App.css";
-import StateCars from "./hooks/StateCars";
+import RefInput from "./hooks/RefInput";
 
 function App() {
-  return (
-    <>
-      <StateCars />
-    </>
-  );
+  return <RefInput />;
 }
 
 export default App;
